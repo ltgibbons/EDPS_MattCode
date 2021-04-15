@@ -3818,7 +3818,7 @@
 			}
 
 				#banner .inner {
-					width: 100%;
+					width: auto;
 				}
 
 				#banner h1 {
@@ -3832,7 +3832,7 @@
 				}
 
 				#banner .button {
-					width: 100%;
+					width: auto;
 				}
 
 		}
@@ -3909,5 +3909,8 @@
 			#footer {
 				padding: 3em 1em 1em 1em;
 			}
+           
+}
 
-		}
+		 .button.big:hover{
+                transform: scale(1.5);}
